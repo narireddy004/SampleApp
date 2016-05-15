@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+ 
+    <import resource="webvisit/Spring_WebVisit.xml" />    
+    <import resource="config/Spring_Datasource.xml" />    
+    <import resource="config/context.xml" />
+    <import resource="jobs/job-report.xml" />
+    
+<!-- 	<bean id="TopFiveWeb" class="com.naresh.common.TopFiveWebApp"> -->
+<!-- 		<property name="name" value="TopFiveWeb" /> -->
+<!-- 	</bean> -->
+	
+</beans>
