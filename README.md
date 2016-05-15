@@ -16,7 +16,7 @@ Steps to access/Brief description of the Web Application:
 (3) Access the Application using the path - http://localhost:8080/topfiveweb/topfivewebvisit
 
 (4) The Application will attempt to clear & re-populate the MySQL database table (topfivewebdb.TOPFIVEWEB) with all the Data found in the data.csv. 
-The Application is using Spring Batch for the parsing of CSV and data population into MySQL DB. *NOTE: This behaviour is meant purely for demo purpose.
+The Application is using Spring Batch for the parsing of CSV and data population into MySQL DB.
 
 (5) The Application will then display a list of Top 5 websites ranking based on ALL the websites found in the MySQL database table (topfivewebdb.TOPFIVEWEB).
 
